@@ -1,0 +1,23 @@
+INT -> LIBRE
+W/R -> GND
+SCL -> GPIO22
+SDA -> GPIO21
+GND -> GND
+VCC -> VCC
+
+| eCO₂ (ppm)    | Interpretación                                                        | Calidad del aire |
+| ------------- | --------------------------------------------------------------------- | ---------------- |
+| **400–600**   | Aire limpio (exterior o ventilado)                                    | Excelente        |
+| **600–1000**  | Ocupación normal en interior                                          | Buena            |
+| **1000–1500** | Mal ventilado                                                         | Regular          |
+| **1500–2500** | Saturación, se acumula CO₂ equivalente                                | Mala             |
+| **2500–5000** | Muy mala ventilación                                                  | Muy mala         |
+| **>5000**     | Exposición peligrosa (teóricamente, pero el sensor llega hasta ~8192) | Crítico          |
+
+| TVOC (ppb)   | Interpretación                     | Calidad del aire |
+| ------------ | ---------------------------------- | ---------------- |
+| **0–50**     | Aire muy limpio                    | Excelente        |
+| **50–200**   | Actividad humana normal            | Buena            |
+| **200–600**  | Producto químico, perfumes, cocina | Regular          |
+| **600–2000** | Contaminado (limpiadores, humo)    | Mala             |
+| **>2000**    | Muy contaminado                    | Muy mala         |
